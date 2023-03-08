@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alam</title>
+    <style>
+      .moon:hover{
+        transform: scale(1.2);
+      }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav id="nav" class="navbar navbar-expand-lg position-absolute w-100">
+      <div class="container-xl">
+        <a id="logo" class="navbar-brand text-light fw-bold" href="#">Alam</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li id="nav-item" class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#home">Home</a>
+            </li>
+            <li id="nav-item" class="nav-item">
+              <a class="nav-link text-light" href="#skill">Skill</a>
+            </li>
+            <li id="nav-item" class="nav-item">
+              <a class="nav-link text-light" href="#project">Project</a>
+            </li>
+            <li id="nav-item" class="nav-item">
+              <a class="nav-link text-light" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="home" class="container-fluid" 
+      style="background-image: url(image/background.jpg); 
+      height: 100vh;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;">
+      <div class="position-absolute top-50 start-50 translate-middle text-center">
+        <h1 class="text-light">ALAM ABDILLAH</h1>
+        <p class="text-primary">I'm a frontend developer, developing graphical interfaces so that users can view and interact with the website.</p>
+        <button type="button" class="btn btn-primary">Contact Me</button>
+      </div>
+      <img src="image/moon.png" class="moon" style="position: absolute;top: 50%;right: 10%;transition: all 0.3s;" width="120px" height="120px">
+      <span class="text-primary" style="position: absolute;bottom: 5em;left:3em;transform: rotate(90deg);letter-spacing: 8px;cursor:pointer;">
+        scroll
+        <img width="20px" class="" style="transform: rotate(270deg);" src="image/icon/arrow.png">
+      </span>
+    </div>
+    <div id="skill" class="container-fluid text-center" style="height: 100vh;">
+      <div class="z-0 w-75 position-absolute start-50 translate-middle" style="top: 150%;">
+        <h2>My Skills</h2>
+        <p>my technical service</p>
+        <div class="d-flex justify-content-center">
+          <div class="w-50 m-3">
+            <h3 class="text-start">  
+              <img src="image/icon/code_1.png">
+              Language Program
+            </h3>
+            <ul class="list-group ms-4">
+              <li class="list-group-item border-0 w-100 position-relative">
+                <label for="range1" class="form-label fs-5 w-100 text-start">
+                  Html
+                  <span class="fs-5 float-end">80%</span>
+                </label>
+                <input type="range" class="form-range-thumb-active-bg w-100" min="0" max="100" value="80" step="1" id="range1">
+              </li>
+              <li class="list-group-item border-0 w-100 position-relative">
+                <label for="range2" class="form-label fs-5 w-100 text-start">
+                  Css
+                  <span class="fs-5 float-end">70%</span>
+                </label>
+                <input type="range" class="form-range-thumb-active-bg w-100" min="0" max="100" value="80" step="1" id="range2">
+              </li>
+              <li class="list-group-item border-0 w-100 position-relative">
+                <label for="range3" class="form-label fs-5 w-100 text-start">
+                  Javascript
+                  <span class="fs-5 float-end">60%</span>
+                </label>
+                <input type="range" class="form-range-thumb-active-bg w-100" min="0" max="100" value="80" step="1" id="range3">
+              </li>
+              <li class="list-group-item border-0 w-100 position-relative">
+                <label for="range4" class="form-label fs-5 w-100 text-start">
+                  Python
+                  <span class="fs-5 float-end">50%</span>
+                </label>
+                <input type="range" class="form-range-thumb-active-bg w-100" min="0" max="100" value="80" step="1" id="range4">
+              </li>
+            </ul>
+          </div>
+          <div class="w-50 m-3">
+            <h3 class="text-start">  
+              <img style="transform: translateY(-4px);" src="image/icon/code_2.png">
+              Framework
+            </h3>
+            <ul class="list-group ms-4">
+              <li class="list-group-item border-0 w-100 position-relative">
+                <label for="range1" class="form-label fs-5 w-100 text-start">
+                  Bootstrap
+                  <span class="fs-5 float-end">80%</span>
+                </label>
+                <input type="range" class="form-range-thumb-active-bg w-100" min="0" max="100" value="80" step="1" id="range1">
+              </li>
+              <li class="list-group-item border-0 w-100 position-relative">
+                <label for="range2" class="form-label fs-5 w-100 text-start">
+                  Tailwind Css
+                  <span class="fs-5 float-end">70%</span>
+                </label>
+                <input type="range" class="form-range-thumb-active-bg w-100" min="0" max="100" value="80" step="1" id="range2">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="project" class="container-fluid text-center" style="height: 100vh;">
+      <div class=" w-75 position-absolute start-50 translate-middle" style="top: 250%;">
+        <h2>My Project</h2>
+        <p>Some of the projects I have worked on</p>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col position-relative">
+              <img width="100%" src="image/project/p1.jpg">
+            </div>
+            <div class="col position-relative">
+              <img width="100%" src="image/project/p2.jpg">
+            </div>
+            <div class="col position-relative">
+              <img width="100%" src="image/project/p3.jpg">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="container-fluid text-start" style="height: 100vh;">
+      <div class=" w-75 position-absolute start-50 translate-middle" style="top: 350%;">
+        <div class="d-flex justify-content-center">
+            <div class="w-50">
+              <h3 class="text-center">Contact Me</h3>
+              <p>Thank you for viewing my portfolio.
+                I really hope you enjoy looking at my work!</p>
+              <span>
+                <b>My Email</b>
+                <p>alamabdillah@gmail.com</p>
+              </span>
+              <span>
+                <b>My Phone</b>
+                <p>+62-8315-2942-463</p>
+              </span>
+            </div>
+            <div class="w-50">
+              <h3>Send me message</h3>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+              <div class="input-group">
+                <textarea class="form-control" aria-label="With textarea" placeholder="Message"></textarea>
+              </div>
+              <button type="button" class="btn btn-primary mt-3">Send</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-dark text-light p-4">
+      <div class="text-center">
+        icon github, facebook, whatsapp, intagram
+      </div>
+      <hr/>
+      <div class="text-center">
+        coppy right 2023
+      </div>
+    </footer>
+    <script>
+var height_size = window.innerHeight;
+var width_size = window.innerWidth;
+var scrolly = window.scrollY;
+
+if(width_size <= 600){
+	alert("page not responsive");
+	alert("yakin ingin lanjut?");
+}
+
+//---get element nav
+const nav = document.getElementById("nav");
+nav.style.transition = "all 0.3s"
+const nav_item = document.getElementById("nav-item");
+const logo = document.getElementById("logo");
+
+//---get element page
+const home_page = document.getElementById("home");
+const skill_page = document.getElementById("skill");
+const project_page = document.getElementById("project");
+const contact_page = document.getElementById("contact");
+
+//---click nav
+function homepage(){
+	home_page.scrollIntoView(true);
+}
+function skillpage(){
+	skill_page.scrollIntoView(true);
+}
+function projectpage(){
+	project_page.scrollIntoView(true);
+}
+function contactpage(){
+	contact_page.scrollIntoView(true);
+}
+
+document.addEventListener("scroll", function(){
+	if(window.scrollY > height_size - 10){
+		if(scrolly > window.scrollY){
+			nav.style.top = "-70px";
+		}else{
+			nav.style.top = "0px";
+		}
+		scrolly = window.scrollY;
+
+		//---style nav
+    nav.className = "navbar navbar-expand-lg position-fixed w-100";
+    nav.style.zIndex = "99";
+    nav.style.background = "#a9a9a9";
+	}
+	else{
+		//---style nav
+    nav.style.top = "0px";
+    nav.style.background = "transparent";
+    nav.className = "navbar navbar-expand-lg position-absolute w-100";
+	}
+});
+    </script> 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
